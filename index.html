@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for ChibbsLearningPath</title>
+</head>
+<body>
+  <h4>FILL THIS FORM IN ORDER TO REGISTER FOR THIS COHORT.</h4>  
+<main>
+  <form>
+    <div>
+    <b><label for="name">Full Name:</label></b>
+    <input id="name" type="text" placeholder="Rick Rice"><br><br>
+    </div>
+
+    <div>
+    <b><label for="email">Email Address:</label></b>
+    <input id="email" type="email" placeholder="example@gmail.com"><br><br>
+    </div>
+
+    <div>
+    <b><label for="phone">Whatsapp Number:</label></b>
+    <input id="phone" type="tel"><br><br>
+    </div>
+    <!--While creating the form, i used both the "b" tag and the "stong" tag and I realized that they seem to perform the same function. I would like to know if there is a difference?-->
+    <div>
+    <strong><label for="date">Date of Birth:</label></strong>
+    <input type="date" id="date"><br><br>
+    </div>
+
+    <div>
+    <b><label>Track:</label></b><br>
+    <label>Web Development</label>
+    <input type="radio" name="track">
+    <label>Artificial Intelligience</label>
+    <input type="radio" name="track">
+    <label>Data Science</label>
+    <input type="radio" name="track">
+    <label>UI/UX</label>
+    <input type="radio" name="track"><br><br>
+    </div>    
+
+    <div>
+    <b><label>State of Origin:</label></b>
+        <select>
+            <option></option>
+            <option value="Abia">Abia</option>
+            <option value="Edo">Edo</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Kaduna">Kaduna</option>
+            <option value="Port">Port Harcourt</option>
+            <option value="Osun">Osun</option>
+            <option value="Plateau">Plateau</option>
+    </select><br><br>
+    </div>
+
+    <div>
+    <label>In nothing less than 200 words, state why you should be given this Scholarship?</label><br><br>
+    <textarea rows="7" cols="30"></textarea><br><br>
+    </div>
+    <button>Submit</button>
+
+  </form>
+  </main>
+</body>
+
+</html>
